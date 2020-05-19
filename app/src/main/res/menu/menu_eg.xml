@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/actionbar_menu_selection_one"
+        android:icon="@drawable/ic_actionbar_menu_selection_one"
+        android:title="@string/actionbar_menu_selection_one" />
+
+    <item
+        android:id="@+id/actionbar_menu_selection_two"
+        android:icon="@drawable/ic_actionbar_menu_selection_two"
+        android:title="@string/actionbar_menu_selection_two" />
+
+    <item
+        android:id="@+id/actionbar_menu_selection_three"
+        android:icon="@drawable/ic_actionbar_menu_selection_three"
+        android:title="@string/actionbar_menu_selection_three" />
+
+</menu>
