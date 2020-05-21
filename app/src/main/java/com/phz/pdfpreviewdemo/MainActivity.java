@@ -31,7 +31,6 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         ll_container=findViewById(R.id.ll_container);
         initWebView();
-
     }
 
     private void initWebView(){
@@ -49,7 +48,7 @@ public class MainActivity extends AppCompatActivity {
         //是否支持缩放（这个是前提）
         webSettings.setSupportZoom(true);
         //是否显示缩放工具（当上门那个成立，再设置这个，必要条件）
-        webSettings.setBuiltInZoomControls(false);
+        webSettings.setBuiltInZoomControls(true);
         //设置此属性，可任意比例缩放
         webSettings.setUseWideViewPort(true);
         //设置充满全屏
